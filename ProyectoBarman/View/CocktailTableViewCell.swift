@@ -1,14 +1,12 @@
-//
-//  CocktailTableViewCell.swift
-//  ProyectoBarman
-//
-//  Created by Octavio on 23/07/24.
-//
+
 
 import UIKit
 
 class CocktailTableViewCell: UITableViewCell {
 
+    
+    @IBOutlet weak var nameCocktail: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

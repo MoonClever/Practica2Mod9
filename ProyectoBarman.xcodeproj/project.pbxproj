@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		C086903C2C4F941C003C5F66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C086903B2C4F941C003C5F66 /* AppDelegate.swift */; };
 		C086903E2C4F941C003C5F66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C086903D2C4F941C003C5F66 /* SceneDelegate.swift */; };
-		C08690402C4F941C003C5F66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C086903F2C4F941C003C5F66 /* ViewController.swift */; };
+		C08690402C4F941C003C5F66 /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C086903F2C4F941C003C5F66 /* ListController.swift */; };
 		C08690432C4F941C003C5F66 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C08690422C4F941C003C5F66 /* Base */; };
 		C08690452C4F941D003C5F66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C08690442C4F941D003C5F66 /* Assets.xcassets */; };
 		C08690482C4F941D003C5F66 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C08690472C4F941D003C5F66 /* Base */; };
+		C08690562C4FBEB5003C5F66 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08690552C4FBEB5003C5F66 /* DetailController.swift */; };
+		C08690582C4FBEC5003C5F66 /* AddController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08690572C4FBEC5003C5F66 /* AddController.swift */; };
+		C086905A2C4FBEED003C5F66 /* CocktailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08690592C4FBEED003C5F66 /* CocktailTableViewCell.swift */; };
+		C086905C2C4FBF56003C5F66 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C086905B2C4FBF56003C5F66 /* NetworkMonitor.swift */; };
+		C086905F2C4FBF7C003C5F66 /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C086905E2C4FBF7C003C5F66 /* Network.framework */; };
+		C08690612C4FBF82003C5F66 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08690602C4FBF82003C5F66 /* AVFoundation.framework */; };
+		C08690632C4FBFB1003C5F66 /* Cocktail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08690622C4FBFB1003C5F66 /* Cocktail.swift */; };
+		C08690652C4FBFC5003C5F66 /* CocktailManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08690642C4FBFC5003C5F66 /* CocktailManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C08690382C4F941C003C5F66 /* ProyectoBarman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoBarman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C086903B2C4F941C003C5F66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C086903D2C4F941C003C5F66 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C086903F2C4F941C003C5F66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C086903F2C4F941C003C5F66 /* ListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
 		C08690422C4F941C003C5F66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C08690442C4F941D003C5F66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C08690472C4F941D003C5F66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C08690492C4F941D003C5F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C08690552C4FBEB5003C5F66 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		C08690572C4FBEC5003C5F66 /* AddController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddController.swift; sourceTree = "<group>"; };
+		C08690592C4FBEED003C5F66 /* CocktailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailTableViewCell.swift; sourceTree = "<group>"; };
+		C086905B2C4FBF56003C5F66 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		C086905E2C4FBF7C003C5F66 /* Network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Network.framework; path = System/Library/Frameworks/Network.framework; sourceTree = SDKROOT; };
+		C08690602C4FBF82003C5F66 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C08690622C4FBFB1003C5F66 /* Cocktail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cocktail.swift; sourceTree = "<group>"; };
+		C08690642C4FBFC5003C5F66 /* CocktailManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C08690612C4FBF82003C5F66 /* AVFoundation.framework in Frameworks */,
+				C086905F2C4FBF7C003C5F66 /* Network.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +60,7 @@
 			children = (
 				C086903A2C4F941C003C5F66 /* ProyectoBarman */,
 				C08690392C4F941C003C5F66 /* Products */,
+				C086905D2C4FBF7C003C5F66 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +75,62 @@
 		C086903A2C4F941C003C5F66 /* ProyectoBarman */ = {
 			isa = PBXGroup;
 			children = (
+				C08690542C4FBD6C003C5F66 /* Extension */,
+				C08690532C4FBD65003C5F66 /* Model */,
+				C08690522C4FBD5F003C5F66 /* Controller */,
+				C08690512C4FBD59003C5F66 /* View */,
 				C086903B2C4F941C003C5F66 /* AppDelegate.swift */,
 				C086903D2C4F941C003C5F66 /* SceneDelegate.swift */,
-				C086903F2C4F941C003C5F66 /* ViewController.swift */,
 				C08690412C4F941C003C5F66 /* Main.storyboard */,
 				C08690442C4F941D003C5F66 /* Assets.xcassets */,
 				C08690462C4F941D003C5F66 /* LaunchScreen.storyboard */,
 				C08690492C4F941D003C5F66 /* Info.plist */,
 			);
 			path = ProyectoBarman;
+			sourceTree = "<group>";
+		};
+		C08690512C4FBD59003C5F66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C08690592C4FBEED003C5F66 /* CocktailTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C08690522C4FBD5F003C5F66 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C086903F2C4F941C003C5F66 /* ListController.swift */,
+				C08690552C4FBEB5003C5F66 /* DetailController.swift */,
+				C08690572C4FBEC5003C5F66 /* AddController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C08690532C4FBD65003C5F66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C08690622C4FBFB1003C5F66 /* Cocktail.swift */,
+				C08690642C4FBFC5003C5F66 /* CocktailManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C08690542C4FBD6C003C5F66 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C086905B2C4FBF56003C5F66 /* NetworkMonitor.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C086905D2C4FBF7C003C5F66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C08690602C4FBF82003C5F66 /* AVFoundation.framework */,
+				C086905E2C4FBF7C003C5F66 /* Network.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +204,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C08690402C4F941C003C5F66 /* ViewController.swift in Sources */,
+				C08690562C4FBEB5003C5F66 /* DetailController.swift in Sources */,
+				C08690652C4FBFC5003C5F66 /* CocktailManager.swift in Sources */,
+				C08690582C4FBEC5003C5F66 /* AddController.swift in Sources */,
+				C08690402C4F941C003C5F66 /* ListController.swift in Sources */,
+				C08690632C4FBFB1003C5F66 /* Cocktail.swift in Sources */,
+				C086905A2C4FBEED003C5F66 /* CocktailTableViewCell.swift in Sources */,
 				C086903C2C4F941C003C5F66 /* AppDelegate.swift in Sources */,
 				C086903E2C4F941C003C5F66 /* SceneDelegate.swift in Sources */,
+				C086905C2C4FBF56003C5F66 /* NetworkMonitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
